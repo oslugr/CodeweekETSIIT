@@ -1,2 +1,8 @@
-# Google App Engine generated folder
-appengine-generated/
+ardublock
+arduino
+scratch
+*.py[co]
+*.sw[po]
+*~
+*#
+\#*
