@@ -12,9 +12,8 @@
 
 ![](/img/img2.jpg)
 
-* Que vamos a aprender
-
 ![](/img/img3.jpg)
+
 
 * Otros proyectos
 
