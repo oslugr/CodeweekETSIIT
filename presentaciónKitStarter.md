@@ -4,18 +4,18 @@
 
 ### Robot Kit y Ardublock
 
-* Introducción
+### Introducción
 
 ![](/img/img1.jpg)
 
-* Que vamos a aprender
+### Que vamos a aprender
 
 ![](/img/img2.jpg)
 
 ![](/img/img3.jpg)
 
 
-* Otros proyectos
+### Otros proyectos
 
 ![](/img/img4.jpg)
 
@@ -23,7 +23,7 @@
 
 ![](/img/img6.jpg)
 
-* ¿Qué vamos a usar?
+### ¿Qué vamos a usar?
 
 
 # Starter Robot Kit
@@ -74,7 +74,7 @@ numerosos ejemplos con su código fuente para que te resulte más sencillo aún.
 
 # Open Source
 
-* Makeblock será siempre Open Source Hardware con licencia **CC-BY-SA3.0**. Los
+> Makeblock será siempre Open Source Hardware con licencia **CC-BY-SA3.0**. Los
 esquemas, planos, firmware y todo lo que necesites customizar será publicado con 
 esa misma licencia.
 
