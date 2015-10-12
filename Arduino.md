@@ -93,6 +93,7 @@
 
 * Descargamos la última versión de: [Arduino 1.6.5](https://www.arduino.cc/en/Main/Software)
 * Descargar e instalar Java por repositorios en [Ubuntu 14.04 LTS](http://www.ubuntu.com/download/desktop)
+
 `su -`
 
 `echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee /etc/apt/sources.list.d/webupd8team-java.list`
@@ -142,35 +143,35 @@
 
 **Si todo está correcto el led I/O 13 parpadea**
 
-# BLOQUES BASICOS
-# INSTRUCCIONES BASICAS
-# ESTRUCTURAS DE CONTROL
-# PRIMER PROGRAMA
+## BLOQUES BASICOS
+## INSTRUCCIONES BASICAS
+## ESTRUCTURAS DE CONTROL
+## PRIMER PROGRAMA
 
 
 
 ## Bloques básicos de código
 
-![](/img/arduino28.png) ![](/img/flecha1.png) - Se ejcuta una sola vez
-                        ![](/img/flecha2.png) - Se ejecuta infinitamente
+![](/img/arduino28.png)  * setup > Se ejcuta una sola vez
+                         * loop  > Se ejecuta infinitamente
 
 
 # Instrucciones básicas
 
 ![](/img/arduino29.png)
 
-* pinMode(nº Pin, Configuración)
+> pinMode(nº Pin, Configuración)
   nº Pin: entre 0 y 13.
    Configuración: INPUT o OUTPUT
 
-* digitalWrite(nº Pin, Estado)
+> digitalWrite(nº Pin, Estado)
   nº Pin: entre 0 y 13.
    Estado: HIGH o LOW
 
-* digitalRead(nº Pin)
+> digitalRead(nº Pin)
   nº Pin: entre 0 y 13.
  
-* analogRead(nº Pin);
+> analogRead(nº Pin);
   nº Pin: entre 0 y 5.
 
 
@@ -205,14 +206,14 @@
 
 ## Shields Arduino
 
-[Motores](/img/arduino35.png)    [Relés](/img/arduino36.png)    [Matriz de leds](/img/arduino37.png)
-[WiiChuck](/img/arduino38.png)   [Midi](/img/arduino39.png)    [GPS](/img/arduino40.png)
+![Motores](/img/arduino35.png)    ![Relés](/img/arduino36.png)    ![Matriz de leds](/img/arduino37.png)
+![WiiChuck](/img/arduino38.png)   ![Midi](/img/arduino39.png)    ![GPS](/img/arduino40.png)
 
 
 ## Familia Arduino-I
 
-[Display 7 segmentos](/img/arduino41.png)  [Display LCD Alfanum.](/img/arduino42.png)    [Display LCD Matricial](/img/arduino43.png)
-[Ethernet](/img/arduino44.png)     [Arduino PRO](/img/arduino45.png)             [Arduino Mega ADK](/img/arduino46.png)
+![Display 7 segmentos](/img/arduino41.png)  ![Display LCD Alfanum.](/img/arduino42.png)    ![Display LCD Matricial](/img/arduino43.png)
+![Ethernet](/img/arduino44.png)     ![Arduino PRO](/img/arduino45.png)             ![Arduino Mega ADK](/img/arduino46.png)
 
 
 ### ¿Para qué sirve Fritzing?
@@ -232,7 +233,7 @@
 ### Diseño con esquemático
 * Todos los cambios del diseño con protoboard se importan automáticamente y viceversa.
 
-![](/img/arduino49.png)                    ![](/img/arduino50.png)
+![](/img/arduino49.png) ![](/img/arduino50.png)
 
 
 ### Segundo Ejercicio
@@ -244,7 +245,8 @@
 * Necesitamos:
 
 ![](/img/arduino52.png)     
-* Led         * Placa de Arduino
+* Led         
+* Placa de Arduino
 
 ### Tercer Ejercicio
 
@@ -254,7 +256,11 @@
 * Necesitamos:
 
 ![](/img/arduino54.png)
-* Led           * Protoboard           * Resistencias           *Cables           *Placa Arduino
+* Led           
+* Protoboard           
+* Resistencias           
+* Cables           
+* Placa Arduino
 
 
 ![](/img/arduino55.png)
@@ -278,8 +284,7 @@
 ### Solución
 
 ![](/img/arduino58.png)  
-:::python
-void setup() {
+`void setup() {
 pinMode(13, OUTPUT);
 pinMode(12, OUTPUT);
 pinMode(11, OUTPUT);
@@ -297,7 +302,7 @@ digitalWrite(11, HIGH);
 delay(1000);
 digitalWrite(11, LOW);
 delay(1000);
-}
+}`
 
 ### Semáforo Viene y Va
 
