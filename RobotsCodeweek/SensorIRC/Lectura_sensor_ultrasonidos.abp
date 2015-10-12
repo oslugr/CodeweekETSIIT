@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="128 128 128" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="3840">
+<PageBlocks>
+<Block genus-name="variable_number" id="402">
+<Label>Distancia</Label>
+<Location>
+<X>686</X>
+<Y>284</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="401" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="glue_sn" id="401">
+<Location>
+<X>630</X>
+<Y>284</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="399" connector-kind="plug" connector-type="string" init-type="string" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="402" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="serial_print" id="398">
+<Location>
+<X>330</X>
+<Y>281</Y>
+</Location>
+<BeforeBlockId>395</BeforeBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="399" connector-kind="socket" connector-type="string" init-type="string" label="mensage2" position-type="single"/>
+<BlockConnector con-block-id="400" connector-kind="socket" connector-type="boolean" init-type="boolean" label="nueva linea" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="true" id="400">
+<Label>true</Label>
+<Location>
+<X>532</X>
+<Y>308</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="398" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="message" id="399">
+<Label>Distancia:</Label>
+<Location>
+<X>532</X>
+<Y>284</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="398" connector-kind="plug" connector-type="string" init-type="string" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="401" connector-kind="socket" connector-type="string" init-type="string" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="me_ultrasonic_sensor" id="393">
+<Location>
+<X>590</X>
+<Y>170</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="395" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="394" connector-kind="socket" connector-type="number" init-type="number" label="PUERTO_ #" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="me_port_3" id="394">
+<Location>
+<X>850</X>
+<Y>170</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="393" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="loop" id="392">
+<Location>
+<X>237</X>
+<Y>135</Y>
+</Location>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="395" connector-kind="socket" connector-type="cmd" init-type="cmd" label="hacer" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="setter_variable_number" id="395">
+<Location>
+<X>330</X>
+<Y>143</Y>
+</Location>
+<BeforeBloc<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="128 128 128" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="3840">
+<PageBlocks>
+<Block genus-name="variable_number" id="402">
+<Label>Distancia</Label>
+<Location>
+<X>686</X>
+<Y>284</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="401" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="glue_sn" id="401">
+<Location>
+<X>630</X>
+<Y>284</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="399" connector-kind="plug" connector-type="string" init-type="string" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="402" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="serial_print" id="398">
+<Location>
+<X>330</X>
+<Y>281</Y>
+</Location>
+<BeforeBlockId>395</BeforeBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="399" connector-kind="socket" connector-type="string" init-type="string" label="mensage2" position-type="single"/>
+<BlockConnector con-block-id="400" connector-kind="socket" connector-type="boolean" init-type="boolean" label="nueva linea" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="true" id="400">
+<Label>true</Label>
+<Location>
+<X>532</X>
+<Y>308</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="398" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="message" id="399">
+<Label>Distancia:</Label>
+<Location>
+<X>532</X>
+<Y>284</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="398" connector-kind="plug" connector-type="string" init-type="string" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="401" connector-kind="socket" connector-type="string" init-type="string" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="me_ultrasonic_sensor" id="393">
+<Location>
+<X>590</X>
+<Y>170</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="395" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="394" connector-kind="socket" connector-type="number" init-type="number" label="PUERTO_ #" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="me_port_3" id="394">
+<Location>
+<X>850</X>
+<Y>170</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="393" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="loop" id="392">
+<Location>
+<X>237</X>
+<Y>135</Y>
+</Location>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="395" connector-kind="socket" connector-type="cmd" init-type="cmd" label="hacer" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="setter_variable_number" id="395">
+<Location>
+<X>330</X>
+<Y>143</Y>
+</Location>
+<BeforeBlockId>392</BeforeBlockId>
+<AfterBlockId>398</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="396" connector-kind="socket" connector-type="number" init-type="number" label="variable" position-type="single"/>
+<BlockConnector con-block-id="393" connector-kind="socket" connector-type="number" init-type="number" label="valor" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="396">
+<Label>Distancia</Label>
+<Location>
+<X>590</X>
+<Y>146</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="395" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>
+kId>392</BeforeBlockId>
+<AfterBlockId>398</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="396" connector-kind="socket" connector-type="number" init-type="number" label="variable" position-type="single"/>
+<BlockConnector con-block-id="393" connector-kind="socket" connector-type="number" init-type="number" label="valor" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="396">
+<Label>Distancia</Label>
+<Location>
+<X>590</X>
+<Y>146</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="395" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>

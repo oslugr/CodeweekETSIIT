@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="128 128 128" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="3840">
+<PageBlocks>
+<Block genus-name="variable_number" id="378">
+<Label>irRead</Label>
+<Location>
+<X>1314</X>
+<Y>366</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="377" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="glue_sn" id="377">
+<Location>
+<X>1258</X>
+<Y>366</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="376" connector-kind="plug" connector-type="string" init-type="string" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="378" connector-kind="socket" connector-type="number" init-type="number" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="serial_println" id="375">
+<Location>
+<X>1032</X>
+<Y>363</Y>
+</Location>
+<BeforeBlockId>1140</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="376" connector-kind="socket" connector-type="string" init-type="string" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="message" id="376">
+<Label>Valor IR:</Label>
+<Location>
+<X>1166</X>
+<Y>366</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="375" connector-kind="plug" connector-type="string" init-type="string" label="" position-type="single"/>
+</Plug>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="377" connector-kind="socket" connector-type="string" init-type="string" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="me_infrareddecoder" id="1140">
+<Location>
+<X>783</X>
+<Y>307</Y>
+</Location>
+<BeforeBlockId>371</BeforeBlockId>
+<Sockets num-sockets="3">
+<BlockConnector con-block-id="1141" connector-kind="socket" connector-type="number" init-type="number" label="PUERTO_ #" position-type="single"/>
+<BlockConnector con-block-id="1142" connector-kind="socket" connector-type="number" init-type="number" label="Dato" position-type="single"/>
+<BlockConnector con-block-id="375" connector-kind="socket" connector-type="cmd" init-type="cmd" label="Tecla pulsada" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="variable_number" id="1142">
+<Label>irRead</Label>
+<Location>
+<X>1035</X>
+<Y>334</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1140" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="me_port_6" id="1141">
+<Location>
+<X>1035</X>
+<Y>310</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="1140" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="program" id="371">
+<Location>
+<X>623</X>
+<Y>264</Y>
+</Location>
+<Sockets num-sockets="2">
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="configuración" position-type="single"/>
+<BlockConnector con-block-id="1140" connector-kind="socket" connector-type="cmd" init-type="cmd" label="bucle" position-type="single"/>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>
