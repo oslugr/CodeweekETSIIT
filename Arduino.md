@@ -203,22 +203,21 @@ exit`
 
 ## Shields Arduino
 
-![Motores](/img/arduino35.png)    ![Relés](/img/arduino36.png)    ![Matriz de leds](/img/arduino37.png)
-![WiiChuck](/img/arduino38.png)    ![Midi](/img/arduino39.png)    ![GPS](/img/arduino40.png)
+[Motores](/img/arduino35.png)    [Relés](/img/arduino36.png)    [Matriz de leds](/img/arduino37.png)
+[WiiChuck](/img/arduino38.png)   [Midi](/img/arduino39.png)    [GPS](/img/arduino40.png)
 
 
 ## Familia Arduino-I
 
-![Display 7 segmentos](/img/arduino41.png)    ![Display LCD Alfanum.](/img/arduino42.png)    ![Display LCD Matricial](/img/arduino43.png)
-![Ethernet](/img/arduino44.png)               ![Arduino PRO](/img/arduino45.png)             ![Arduino Mega ADK](/img/arduino46.png)
+[Display 7 segmentos](/img/arduino41.png)  [Display LCD Alfanum.](/img/arduino42.png)    [Display LCD Matricial](/img/arduino43.png)
+[Ethernet](/img/arduino44.png)     [Arduino PRO](/img/arduino45.png)             [Arduino Mega ADK](/img/arduino46.png)
 
 
 ### ¿Para qué sirve Fritzing?
 
-![](/img/arduino47.png) 
 * Software de apoyo para el diseño de circuitos con Arduino
 * Dispone de componentes comunes:
-- Resistencias, Leds, Alimentaciones, Motores, Sensores...
+* Resistencias, Leds, Alimentaciones, Motores, Sensores...
 
 ### Diseño con protoboard
 
