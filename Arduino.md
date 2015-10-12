@@ -1,5 +1,5 @@
-# CODEWEEK #
---------------------------------------------------------
+# CODEWEEK 
+----------------------------------
 
 ## MIS PRIMEROS PASOS CON ARDUINO
 
@@ -94,11 +94,17 @@
 * Descargamos la última versión de: [Arduino 1.6.5](https://www.arduino.cc/en/Main/Software)
 * Descargar e instalar Java por repositorios en [Ubuntu 14.04 LTS](http://www.ubuntu.com/download/desktop)
 `su -`
+
 `echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee /etc/apt/sources.list.d/webupd8team-java.list`
+
 `echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee -a /etc/apt/sources.list.d/webupd8team-java.list`
+
 `apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys EEA14886`
+
 `apt-get update`
+
 `apt-get install oracle-java7-installer`
+
 `exit`
 
 ### El software consta de dos partes
