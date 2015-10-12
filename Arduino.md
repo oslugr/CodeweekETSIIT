@@ -40,22 +40,17 @@
 
 ### Familia Arduino
 
-![Arduino UNO](/img/arduino8.png)  ![Arduino LyliPad](/img/arduino9.png)  ![Arduino Mega 2560](/img/arduino10.png)
-
-![Arduino FIO](/img/arduino11.png)  ![Arduino PRO](/img/arduino12.png)  ![Arduino Mega ADK](/img/arduino13.png)
-
-![Arduino Ethernet](/img/arduino14.png)  ![Arduino Mega 2560](/img/arduino15.png)  ![Arduino Nano](/img/arduino16.png)
-
-![Arduino Mega ADK ](/img/arduino17.png)
+[Arduino UNO](/img/arduino8.png)  [Arduino LyliPad](/img/arduino9.png)  [Arduino Mega 2560](/img/arduino10.png)
+[Arduino FIO](/img/arduino11.png)  [Arduino PRO](/img/arduino12.png)  [Arduino Mega ADK](/img/arduino13.png) [Arduino Ethernet](/img/arduino14.png)  [Arduino Mega 2560](/img/arduino15.png)  [Arduino Nano](/img/arduino16.png) [Arduino Mega ADK ](/img/arduino17.png)
 
 
 # Conceptos Básicos de Electrónica
 
-### Alimentación y tierra
+> Alimentación y tierra
 
-### Tipos de señales
+> Tipos de señales
 
-### Circuitos Básicos
+> Circuitos Básicos
 
 
 ## Alimentación y Tierra
@@ -69,20 +64,21 @@
 # Tipos de señales
 
 ![](/img/arduino19.png)   
-* Señales analógicas:
--Pueden tener cualquier valor dentro de un rango.
--En Arduino entre `0 y 5 v`
+> Señales analógicas:
+> Pueden tener cualquier valor dentro de un rango.
+> En Arduino entre `0 y 5 v`
 
 ![](/img/arduino20.png)
-* Señales digitales:
--Tienen dos estados:
-`High (H) entre 4,5 y 5,3 v`
-`Low (L) entre -0,3 y 0,5v`
+> Señales digitales
+>Tienen dos estados: `High (H) entre 4,5 y 5,3 v` `Low (L) entre -0,3 y 0,5v`
 
 # Circuitos básicos
 
-![](/img/arduino21.png)  ![](/img/arduino22.png)    ![](/img/arduino 23.png)  ![](/img/arduino24.png)
-* Conexiones de un Led   * Conexiones de un botón   * Conexión de un relé     * Conexión de un altavoz
+![](/img/arduino21.png)  ![](/img/arduino22.png)    ![](/img/arduino23.png)  ![](/img/arduino24.png)
+> Conexiones de un Led    
+> Conexiones de un botón    
+> Conexión de un relé      
+> Conexión de un altavoz
 
 
 # TOMA DE CONTACTO
@@ -97,13 +93,13 @@
 
 * Descargamos la última versión de: [Arduino 1.6.5](https://www.arduino.cc/en/Main/Software)
 * Descargar e instalar Java por repositorios en [Ubuntu 14.04 LTS](http://www.ubuntu.com/download/desktop)
-`su -
-echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee /etc/apt/sources.list.d/webupd8team-java.list
-echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee -a /etc/apt/sources.list.d/webupd8team-java.list
-apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys EEA14886
-apt-get update
-apt-get install oracle-java7-installer
-exit`
+`su -`
+`echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee /etc/apt/sources.list.d/webupd8team-java.list`
+`echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee -a /etc/apt/sources.list.d/webupd8team-java.list`
+`apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys EEA14886`
+`apt-get update`
+`apt-get install oracle-java7-installer`
+`exit`
 
 ### El software consta de dos partes
 * Entorno de desarrollo
@@ -116,12 +112,12 @@ exit`
 * Apariencia muy sencilla
 * 4 Secciones básicas.
 * En Archivos tenemos:
-- Proyectos de demostración.
+> Proyectos de demostración.
 * En Programa tenemos:
-- Opciones de compilación.
+> Opciones de compilación.
 * En Herramientas tenemos:
-- Configuración de la plataforma
-- Configuración del puerto
+> Configuración de la plataforma
+> Configuración del puerto
 
 ### Entornos de desarrollo
 
