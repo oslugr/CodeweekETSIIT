@@ -40,8 +40,7 @@
 
 ### Familia Arduino
 
-[Arduino UNO](/img/arduino8.png)  [Arduino LyliPad](/img/arduino9.png)  [Arduino Mega 2560](/img/arduino10.png)
-[Arduino FIO](/img/arduino11.png)  [Arduino PRO](/img/arduino12.png)  [Arduino Mega ADK](/img/arduino13.png) [Arduino Ethernet](/img/arduino14.png)  [Arduino Mega 2560](/img/arduino15.png)  [Arduino Nano](/img/arduino16.png) [Arduino Mega ADK ](/img/arduino17.png)
+![Arduino UNO](/img/arduino8.png) ![Arduino LyliPad](/img/arduino9.png) ![Arduino Mega 2560](/img/arduino10.png) ![Arduino FIO](/img/arduino11.png) ![Arduino PRO](/img/arduino12.png) ![Arduino Mega ADK](/img/arduino13.png) ![Arduino Ethernet](/img/arduino14.png) ![Arduino Mega 2560](/img/arduino15.png) ![Arduino Nano](/img/arduino16.png) ![Arduino Mega ADK ](/img/arduino17.png)
 
 
 # Conceptos Básicos de Electrónica
