@@ -5,7 +5,7 @@
 # Que es Codeweek?
   
 [CodeWeek](http://codeweek.eu/), la semana del código, con la intención de introducir en el mundo de la programación a toda la población y hacer visible su importancia en el mundo laboral y en la vida diaria.   
- ![](/img/Codeweek.jpg) 
+ ![](/img/CodeWeek.png) 
 #Pensamiento computacional  
   
 Jeannette Wing (2006):“el pensamiento computacional implica resolver problemas, diseñar sistemas y comprender el comportamiento humano, haciendo uso de los conceptos fundamentales de la informática”  
