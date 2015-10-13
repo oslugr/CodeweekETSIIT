@@ -91,7 +91,8 @@
 ## Instalación del software
 
 * Descargamos la última versión de: [Arduino 1.6.5](https://www.arduino.cc/en/Main/Software)
-* Descargar e instalar Java por repositorios en [Ubuntu 14.04 LTS](http://www.ubuntu.com/download/desktop)
+
+* Descargar e instalar Java por repositorios en [Debian Jessie](https://www.debian.org/CD/http-ftp/)
 
 `su -`
 
@@ -106,6 +107,15 @@
 `apt-get install oracle-java7-installer`
 
 `exit`
+
+Y en [Ubuntu 14.04 LTS](http://www.ubuntu.com/download/desktop)
+
+`sudo add-apt-repository ppa:webupd8team/java`
+
+`sudo apt-get update`
+
+`sudo apt-get install oracle-java7-installer`
+
 
 ### El software consta de dos partes
 * Entorno de desarrollo
