@@ -9,7 +9,7 @@
 #Pensamiento computacional  
   
 Jeannette Wing (2006):“el pensamiento computacional implica resolver problemas, diseñar sistemas y comprender el comportamiento humano, haciendo uso de los conceptos fundamentales de la informática”  
-![](/img/JeannetteWing.jpg)
+![](/img/JeannetteWing.jpg)  
 Mitchel Resnick, creador de Scratch en el MIT, se basó en las ideas de Papert y en el concepto de bloques Lego, con quienes trabajaron en el MIT (Lego Mindstorms), para desarrollar Scratch:  
         "Yo veo razones más profundas y generales para aprender a programar. En el proceso de aprender a programar, las personas aprenden muchas otras cosas. No están simplemente aprendiendo a programar, están programando para aprender, pués además de comprender ideas matemáticas y computacionales, tales como variables, condiciones, simultáneamente están aprendiendo estrategias para solucionar problemas, diseñar proyectos y comunicar ideas."  
 ![](/img/MitchelResnick.jpg)  
