@@ -405,7 +405,7 @@ mientras sea cierta.
 variables que se accede con un
 número de índice.
 
-
+```
 `//Ejercicio con un array y con un contador para recorrer el array//
 int leds[3]={11,12,13};
 int tiempo=100;
@@ -451,7 +451,7 @@ digitalWrite(led,LOW);
 delay(tiempo);
 }
 }`
-
+```
 
 ![Renato, José Alonso y Manu](/img/arduino60.jpg).
 
