@@ -20,9 +20,7 @@ NEGRO:GND-NEGATIVO PROTOBOARD
 AZUL: PIN 13 – LARGO LED
 ROJO: PIN 10- BOTON ---- PIN 2-BOTON
 
-
-`
-int LED = 13; //LED
+`int LED = 13; //LED
 int pulsador1 = 2; // primer pulsador
 int pulsador2 = 10; // segundo pulsador
 
@@ -39,6 +37,4 @@ void loop () {
   else if (digitalRead(pulsador2) == HIGH){ //si el pulsador2 está en alto
     digitalWrite (LED, LOW); // apagar el LED
   }
-}
-
-`
+}`
