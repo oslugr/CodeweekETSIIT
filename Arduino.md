@@ -1,14 +1,17 @@
-# CODEWEEK 
+# CODEWEEK
 ----------------------------------
 
 ## MIS PRIMEROS PASOS CON ARDUINO
 
 ## ¿Que sabes de Arduino?
 
-* ¿Qué es Arduino?
-* ¿Para qué sirve?
-* ¿Qué es la robótica?
-* ¿Para qué se usa?
+> ¿Qué es Arduino?
+> 
+> ¿Para qué sirve?
+> 
+> ¿Qué es la robótica?
+> 
+> ¿Para qué se usa?
 
 ![](/img/arduino1.png)
 
@@ -25,7 +28,7 @@
 
 ### Algunos datos
 
-* Maximo Banzi 2005
+>* Maximo Banzi 2005
 * Un bar le da nombre
 * Color azul (No Placas Convencionales)
 * Lider en DIY (Do It Yourself)
@@ -45,50 +48,51 @@
 
 # Conceptos Básicos de Electrónica
 
-> Alimentación y tierra
+>* Alimentación y tierra
 
-> Tipos de señales
+>* Tipos de señales
 
-> Circuitos Básicos
+>* Circuitos Básicos
 
 
 ## Alimentación y Tierra
 
-* Los circuitos tienen dos conexiones (+) y (-)
-* Ningún circuito puede tener una única conexión
-* Los circuitos tiene que estar alimentados para funcionar
+>* Los circuitos tienen dos conexiones (+) y (-)
+>* Ningún circuito puede tener una única conexión
+>* Los circuitos tiene que estar alimentados para funcionar
 
 ![](/img/arduino18.png)
 
 # Tipos de señales
 
-![](/img/arduino19.png)   
-> Señales analógicas:
-> Pueden tener cualquier valor dentro de un rango.
-> En Arduino entre `0 y 5 v`
+![](/img/arduino19.png)
+>* Señales analógicas:
+>*  Pueden tener cualquier valor dentro de un rango.
+>*  En Arduino entre `0 y 5 v`
 
 ![](/img/arduino20.png)
-> Señales digitales
->Tienen dos estados: `High (H) entre 4,5 y 5,3 v` `Low (L) entre -0,3 y 0,5v`
+>* Señales digitales
+>* Tienen dos estados: `High (H) entre 4,5 y 5,3 v` `Low (L) entre -0,3 y 0,5v`
 
 # Circuitos básicos
 
-![](/img/arduino21.png)  ![](/img/arduino22.png)    ![](/img/arduino23.png)  ![](/img/arduino24.png)
-> Conexiones de un Led    
-> Conexiones de un botón    
-> Conexión de un relé      
-> Conexión de un altavoz
+![](/img/arduino21.png)![](/img/arduino22.png)![](/img/arduino23.png)![](/img/arduino24.png)
+
+>* Conexiones de un Led
+>* Conexiones de un botón
+>* Conexión de un relé
+>* Conexión de un altavoz
 
 
 # TOMA DE CONTACTO
 
-### Instalación del Software
-### Entorno de desarrollo
-### Configuración del puerto Usb
-### Compilación
+###* Instalación del Software
+###* Entorno de desarrollo
+###* Configuración del puerto Usb
+###* Compilación
 
 
-## Instalación del software
+##* Instalación del software
 
 * Descargamos la última versión de: [Arduino 1.6.5](https://www.arduino.cc/en/Main/Software)
 
@@ -137,14 +141,14 @@ Y en [Ubuntu 14.04 LTS](http://www.ubuntu.com/download/desktop)
 
 ### Entornos de desarrollo
 
-![](/img/arduino26.png)   
+![](/img/arduino26.png)
 
-* Seleccionar tarjeta correcta:
+>* Seleccionar tarjeta correcta:
 `tools >> Arduino Uno`
 
 ![](/img/arduino27.png)
 
-* Seleccionar puerto serie
+>* Seleccionar puerto serie
 - (Virtual)
 - Depende del sistema operativo
 `Serial port >> tty.xxx`
@@ -152,49 +156,53 @@ Y en [Ubuntu 14.04 LTS](http://www.ubuntu.com/download/desktop)
 
 **Si todo está correcto el led I/O 13 parpadea**
 
-## BLOQUES BASICOS
-## INSTRUCCIONES BASICAS
-## ESTRUCTURAS DE CONTROL
-## PRIMER PROGRAMA
+##* BLOQUES BASICOS
+##* INSTRUCCIONES BASICAS
+##* ESTRUCTURAS DE CONTROL
+##* PRIMER PROGRAMA
 
 
+###* Bloques básicos de código
 
-## Bloques básicos de código
+![](/img/arduino28.png)
+	setup > Se ejcuta una sola vez
+    loop  > Se ejecuta infinitamente
 
-![](/img/arduino28.png)  * setup > Se ejcuta una sola vez
-                         * loop  > Se ejecuta infinitamente
 
-
-# Instrucciones básicas
+###* Instrucciones básicas
 
 ![](/img/arduino29.png)
 
-> pinMode(nº Pin, Configuración)
-  nº Pin: entre 0 y 13.
-   Configuración: INPUT o OUTPUT
+```python
+pinMode(nº Pin, Configuración)
+nº Pin: entre 0 y 13.
+Configuración: INPUT o OUTPUT
 
-> digitalWrite(nº Pin, Estado)
-  nº Pin: entre 0 y 13.
-   Estado: HIGH o LOW
+digitalWrite(nº Pin, Estado)
+nº Pin: entre 0 y 13.
+Estado: HIGH o LOW
 
-> digitalRead(nº Pin)
-  nº Pin: entre 0 y 13.
- 
-> analogRead(nº Pin);
-  nº Pin: entre 0 y 5.
+digitalRead(nº Pin)
+nº Pin: entre 0 y 13.
 
+analogRead(nº Pin);
+nº Pin: entre 0 y 5.
+```
 
-# Instrucciones básicas-I
+###* Instrucciones básicas-I
 
 ![](/img/arduino30.png)
 
-`Serial.begin(Velocidad) Velocidad: típicamente 9600`
+```python
 
-`Serial.println(Variable) Variable: Dato a mandar`
+Serial.begin(Velocidad) Velocidad: típicamente 9600
 
-`Serial. Read()`
+Serial.println(Variable) Variable: Dato a mandar
 
-`Delay(ms) ms: Tiempo de espera en milisegundos`
+Serial. Read()
+
+Delay(ms) ms: Tiempo de espera en milisegundos
+```
 
 * Todas las funciones en: [Reference](https://www.arduino.cc/en/Reference/HomePage)
 
@@ -213,16 +221,16 @@ Y en [Ubuntu 14.04 LTS](http://www.ubuntu.com/download/desktop)
 ![](/img/arduino34.png)
 
 
-## Shields Arduino
+##* Shields Arduino
 
-![Motores](/img/arduino35.png)    ![Relés](/img/arduino36.png)    ![Matriz de leds](/img/arduino37.png)
-![WiiChuck](/img/arduino38.png)   ![Midi](/img/arduino39.png)    ![GPS](/img/arduino40.png)
+![Motores](/img/arduino35.png) ![Relés](/img/arduino36.png) ![Matriz de leds](/img/arduino37.png)
+![WiiChuck](/img/arduino38.png) ![Midi](/img/arduino39.png) ![GPS](/img/arduino40.png)
 
 
-## Familia Arduino-I
+##* Familia Arduino-I
 
-![Display 7 segmentos](/img/arduino41.png)  ![Display LCD Alfanum.](/img/arduino42.png)    ![Display LCD Matricial](/img/arduino43.png)
-![Ethernet](/img/arduino44.png)     ![Arduino PRO](/img/arduino45.png)             ![Arduino Mega ADK](/img/arduino46.png)
+![Display 7 segmentos](/img/arduino41.png)![Display LCD Alfanum.](/img/arduino42.png) ![Display LCD Matricial](/img/arduino43.png)
+![Ethernet](/img/arduino44.png)![Arduino PRO](/img/arduino45.png)            ![Arduino Mega ADK](/img/arduino46.png)
 
 
 ### ¿Para qué sirve Fritzing?
@@ -233,7 +241,7 @@ Y en [Ubuntu 14.04 LTS](http://www.ubuntu.com/download/desktop)
 
 ### Diseño con protoboard
 
-![](/img/arduino48.png) 
+![](/img/arduino48.png)
 * Dispone de una amplia librería de proyectos
 * Se pueden añadir componentes nuevos.
 * Representa gráficamente las conexiones en la protoboard.
@@ -245,17 +253,18 @@ Y en [Ubuntu 14.04 LTS](http://www.ubuntu.com/download/desktop)
 ![](/img/arduino49.png) ![](/img/arduino50.png)
 
 
-### Segundo Ejercicio
+###* Segundo Ejercicio
 
 ![](/img/arduino51.png)
 
 
 ### Montaje y encendido de primer led
-* Necesitamos:
+> Necesitamos:
 
-![](/img/arduino52.png)     
-* Led         
-* Placa de Arduino
+![](/img/arduino52.png)
+
+> Led
+ Placa de Arduino
 
 ### Tercer Ejercicio
 
@@ -265,35 +274,37 @@ Y en [Ubuntu 14.04 LTS](http://www.ubuntu.com/download/desktop)
 * Necesitamos:
 
 ![](/img/arduino54.png)
-* Led           
-* Protoboard           
-* Resistencias           
-* Cables           
-* Placa Arduino
+> Led
+ Protoboard
+ Resistencias
+ Cables
+ Placa Arduino
 
 
 ![](/img/arduino55.png)
 
 
-### Semáforo
+###* Semáforo
 
 ![](/img/arduino56.png)
-* Led (Amarillo, Rojo, Verde)
-* Protoboard
-* Resistencias
-* Cables
-* Placa Arduino
+> Led (Amarillo, Rojo, Verde)
+ Protoboard
+ Resistencias
+ Cables
+ Placa Arduino
 
 
-### solución imagén
+###* solución imagén
 
 ![](/img/arduino57.png)
 
 
-### Solución
+###* Solución
 
-![](/img/arduino58.png)  
-`void setup() {
+![](/img/arduino58.png)
+
+```python
+void setup() {
 pinMode(13, OUTPUT);
 pinMode(12, OUTPUT);
 pinMode(11, OUTPUT);
@@ -311,23 +322,26 @@ digitalWrite(11, HIGH);
 delay(1000);
 digitalWrite(11, LOW);
 delay(1000);
-}`
+}
+´´´
 
 ### Semáforo Viene y Va
 
 ![](/img/arduino59.png)
 
-* Led (Amarillo, Rojo y Verde)
-* Protoboard
-* Resistencias
-* Cables
-* Placa Arduino
+> Led (Amarillo, Rojo y Verde)
+ Protoboard
+ Resistencias
+ Cables
+ Placa Arduino
 
-`if (condicion){
+```python
+if (condicion){
 ....
 } else {
 ....
-}`
+}
+```
 
 > Ejecuta el bloque separado por **{}** siempre y
 cuando se cumpla la condición, acompañada
@@ -335,10 +349,11 @@ a esta estructura existe else (si nó) que es
 para el caso contrario a la condición, sin
 tener que evaluar la condición negada.
 
-
-`for (inicial;condición;repetición){
+```python
+for (inicial;condición;repetición){
 ....
-}`
+}
+```
 
 > Se ejecuta la sentencia inicial, y si se cumple la
 condición se ejecuta el código en el interior de
@@ -347,35 +362,37 @@ repetición y se vuelve a comparar la condición,
 mientras la condición sea cierta el bloque
 encerrado entre llaves se seguirá ejecutando.
 
-`while (condición){
+```python
+while (condición){
 ....
-}`
-
+}
+```
 > Mientras se cumpla la condición entre
 paréntesis, se ejecuta el código en el
 interior de **{}** de manera infinita hasta.
 
-
-`switch (varieble numérica){
-case num1:
-.....
-break;
-case num2:
-.....
-break;
-default:
-}`
-
-`switch ($i)
-{
-case 0:
-echo "i es igual a 0";
-case 1:
-echo "i es igual a 1";
-case 2:
-echo "i es igual a 2";
-}`
-
+```python
+	switch (varieble numérica){
+	case num1:
+	.....
+	break;
+	case num2:
+	.....
+	break;
+	default:
+	}
+```
+```python
+switch ($i)
+	{
+	case 0:
+	echo "i es igual a 0";
+	case 1:
+	echo "i es igual a 1";
+	case 2:
+	echo "i es igual a 2";
+	}
+```
 > La sentencia switch es un tanto compleja y
 probabilísticamente poco usada ya que no
 puede usarse con objetos y las comparaciones
@@ -390,23 +407,25 @@ siguiente cláusula case, existe una opción
 default que es para cuando ninguno de los
 casos resulta ser el correcto.
 
-`do{
+```python
+do{
 ...
-}while(condición);`
+}while(condición);
+```
 
 > El bloque dentro de la palabra clave **d**o,
 se ejecutará al menos una vez y si la
 condición de while se cumple, se repetirá
 mientras sea cierta.
 
-* Arrays
+###* Arrays
 
 > Una matriz es un conjunto de
 variables que se accede con un
 número de índice.
 
-```
-`//Ejercicio con un array y con un contador para recorrer el array//
+```python
+//Ejercicio con un array y con un contador para recorrer el array//
 int leds[3]={11,12,13};
 int tiempo=100;
 int led=0;
@@ -429,10 +448,11 @@ delay(tiempo);
 digitalWrite(leds[led],LOW);
 delay(tiempo);
 }
-}`
+}
+```
 
-
-`int tiempo=10;
+```python
+int tiempo=10;
 int led;
 void setup()
 {
@@ -450,7 +470,7 @@ delay(tiempo);
 digitalWrite(led,LOW);
 delay(tiempo);
 }
-}`
+}
 ```
 
 ![Renato, José Alonso y Manu](/img/arduino60.jpg).
