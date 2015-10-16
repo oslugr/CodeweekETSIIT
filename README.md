@@ -20,11 +20,11 @@ Fuentes:
 [Wikipedia: Jeannnette Wing](https://en.wikipedia.org/wiki/Jeannette_Wing#/media/File:Jeannette_Wing,_Davos_2013.jpg)     
 Presentaciones:  
   
-https://github.com/oslugr/CodeweekETSIIT/blob/master/CodeWeek%20Scratch%20Paloma.pdf
-https://github.com/oslugr/CodeweekETSIIT/blob/master/Arduino.md
-https://github.com/oslugr/CodeweekETSIIT/blob/master/LED%20BOTON.pdf
-https://docs.google.com/presentation/d/1_nBlDXx2kDwPCvJwQDzhBej07wd971X8jaScbbz7fTA/edit?usp=sharing
-https://docs.google.com/document/d/1gNVjxO1kbMASsvP83D3PZhTHAGol5FePa2WIs6C9i2c/edit?usp=sharing
-https://docs.google.com/document/d/1PsexyJOwnuRgGWCg64IPK6yMfqjg3uXV3cGLp9UoG4I/edit?usp=sharing
+https://github.com/oslugr/CodeweekETSIIT/blob/master/CodeWeek%20Scratch%20Paloma.pdf  
+https://github.com/oslugr/CodeweekETSIIT/blob/master/Arduino.md  
+https://github.com/oslugr/CodeweekETSIIT/blob/master/LED%20BOTON.pdf  
+https://docs.google.com/presentation/d/1_nBlDXx2kDwPCvJwQDzhBej07wd971X8jaScbbz7fTA/edit?usp=sharing  
+https://docs.google.com/document/d/1gNVjxO1kbMASsvP83D3PZhTHAGol5FePa2WIs6C9i2c/edit?usp=sharing  
+https://docs.google.com/document/d/1PsexyJOwnuRgGWCg64IPK6yMfqjg3uXV3cGLp9UoG4I/edit?usp=sharing  
   
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.
