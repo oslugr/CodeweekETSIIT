@@ -329,12 +329,13 @@ delay(1000);
 
 ![](/img/arduino59.png)
 
-> Led (Amarillo, Rojo y Verde)
+```python
+ Led (Amarillo, Rojo y Verde)
  Protoboard
  Resistencias
  Cables
  Placa Arduino
-
+```
 ```python
 if (condicion){
 ....
